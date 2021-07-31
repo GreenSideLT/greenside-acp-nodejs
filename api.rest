@@ -1,0 +1,20 @@
+### Auth - login
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "name": "Aivaras_Vercetti",
+    "password": "aivaraspsw123gslt"
+}
+
+### Auth - me check.
+GET http://localhost:8000/api/auth/attempt
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MTIyLCJWYXJkYXMiOiJBaXZhcmFzX1ZlcmNldHRpIiwicGxheWVyX1JlZ2lzdHJhdGlvblBhc3N3b3JkIjoiYTc0NGMxMzc1NDUwYTMxY2VmMmU0NzBiNmJmNzcwZTYiLCJwbGF5ZXJBZG1pbiI6MywiaWF0IjoxNjEyMTM5MTM4fQ.2XRg4E-CnZ-0Q6OUFxwGG7u_8inBCkGnd18G0t_-PlY
+
+### Players - search.
+GET http://localhost:8000/api/players/search/Ai
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MTIyLCJWYXJkYXMiOiJBaXZhcmFzX1ZlcmNldHRpIiwicGxheWVyX1JlZ2lzdHJhdGlvblBhc3N3b3JkIjoiYTc0NGMxMzc1NDUwYTMxY2VmMmU0NzBiNmJmNzcwZTYiLCJwbGF5ZXJBZG1pbiI6MywiaWF0IjoxNjEyMTM5MTM4fQ.2XRg4E-CnZ-0Q6OUFxwGG7u_8inBCkGnd18G0t_-PlY
+
+### Players - show.
+GET http://localhost:8000/api/players/Mafijos_Tevas
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MTIyLCJWYXJkYXMiOiJBaXZhcmFzX1ZlcmNldHRpIiwicGxheWVyX1JlZ2lzdHJhdGlvblBhc3N3b3JkIjoiYTc0NGMxMzc1NDUwYTMxY2VmMmU0NzBiNmJmNzcwZTYiLCJwbGF5ZXJBZG1pbiI6MywiaWF0IjoxNjEyODIyMzI3fQ.6I5CMpRki27rGRVs1SlQbrICz3AOM4F_YikWHEjZlhw
